@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <menuitem
+            id="menu_Demo_app_parent"
+            name="Demo_App"/>
+        <menuitem
+            id="menu_Demo_app_submenu"
+            name="Demo_app_submenu"
+            parent="menu_Demo_app_parent"
+            action="action_Demo_app"/>
+    </data>
+</odoo>

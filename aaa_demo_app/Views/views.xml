@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_Demo_app" model="ir.actions.act.window">
+            <field name="name">Name</field>
+            <field name="type">ir.action.act.window</field>
+            <field name="res.model">demo.app</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>
